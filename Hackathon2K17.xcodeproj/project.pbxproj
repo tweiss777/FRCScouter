@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		700A05171E61AEAA00BB7A4E /* ExportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700A05161E61AEAA00BB7A4E /* ExportVC.swift */; };
 		70ED0C191E6111A5006E9FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED0C181E6111A5006E9FFA /* AppDelegate.swift */; };
 		70ED0C1B1E6111A5006E9FFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED0C1A1E6111A5006E9FFA /* ViewController.swift */; };
 		70ED0C1E1E6111A5006E9FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70ED0C1C1E6111A5006E9FFA /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		70ED0C231E6111A5006E9FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70ED0C211E6111A5006E9FFA /* LaunchScreen.storyboard */; };
 		70ED0C2E1E6111A5006E9FFA /* Hackathon2K17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED0C2D1E6111A5006E9FFA /* Hackathon2K17Tests.swift */; };
 		70ED0C391E6111A5006E9FFA /* Hackathon2K17UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED0C381E6111A5006E9FFA /* Hackathon2K17UITests.swift */; };
+		70ED0C491E613F21006E9FFA /* NewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED0C481E613F21006E9FFA /* NewVC.swift */; };
+		70ED0C4B1E614531006E9FFA /* OldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED0C4A1E614531006E9FFA /* OldVC.swift */; };
+		70ED0C4D1E614540006E9FFA /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED0C4C1E614540006E9FFA /* AboutVC.swift */; };
+		70ED0C4F1E614C3D006E9FFA /* ScoutingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED0C4E1E614C3D006E9FFA /* ScoutingObject.swift */; };
+		70ED0C511E614C8F006E9FFA /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70ED0C501E614C8F006E9FFA /* SettingsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		700A05161E61AEAA00BB7A4E /* ExportVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportVC.swift; sourceTree = "<group>"; };
 		70ED0C151E6111A5006E9FFA /* Hackathon2K17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackathon2K17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70ED0C181E6111A5006E9FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70ED0C1A1E6111A5006E9FFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		70ED0C341E6111A5006E9FFA /* Hackathon2K17UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hackathon2K17UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70ED0C381E6111A5006E9FFA /* Hackathon2K17UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackathon2K17UITests.swift; sourceTree = "<group>"; };
 		70ED0C3A1E6111A5006E9FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70ED0C481E613F21006E9FFA /* NewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewVC.swift; path = ../NewVC.swift; sourceTree = "<group>"; };
+		70ED0C4A1E614531006E9FFA /* OldVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OldVC.swift; sourceTree = "<group>"; };
+		70ED0C4C1E614540006E9FFA /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		70ED0C4E1E614C3D006E9FFA /* ScoutingObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoutingObject.swift; sourceTree = "<group>"; };
+		70ED0C501E614C8F006E9FFA /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,15 @@
 		70ED0C171E6111A5006E9FFA /* Hackathon2K17 */ = {
 			isa = PBXGroup;
 			children = (
+				70ED0C1C1E6111A5006E9FFA /* Main.storyboard */,
+				700A05161E61AEAA00BB7A4E /* ExportVC.swift */,
 				70ED0C181E6111A5006E9FFA /* AppDelegate.swift */,
 				70ED0C1A1E6111A5006E9FFA /* ViewController.swift */,
-				70ED0C1C1E6111A5006E9FFA /* Main.storyboard */,
+				70ED0C481E613F21006E9FFA /* NewVC.swift */,
+				70ED0C4A1E614531006E9FFA /* OldVC.swift */,
+				70ED0C4C1E614540006E9FFA /* AboutVC.swift */,
+				70ED0C501E614C8F006E9FFA /* SettingsVC.swift */,
+				70ED0C4E1E614C3D006E9FFA /* ScoutingObject.swift */,
 				70ED0C1F1E6111A5006E9FFA /* Assets.xcassets */,
 				70ED0C211E6111A5006E9FFA /* LaunchScreen.storyboard */,
 				70ED0C241E6111A5006E9FFA /* Info.plist */,
@@ -262,8 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70ED0C4F1E614C3D006E9FFA /* ScoutingObject.swift in Sources */,
+				70ED0C491E613F21006E9FFA /* NewVC.swift in Sources */,
+				70ED0C4D1E614540006E9FFA /* AboutVC.swift in Sources */,
 				70ED0C1B1E6111A5006E9FFA /* ViewController.swift in Sources */,
+				700A05171E61AEAA00BB7A4E /* ExportVC.swift in Sources */,
+				70ED0C4B1E614531006E9FFA /* OldVC.swift in Sources */,
 				70ED0C191E6111A5006E9FFA /* AppDelegate.swift in Sources */,
+				70ED0C511E614C8F006E9FFA /* SettingsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +538,7 @@
 				70ED0C3F1E6111A5006E9FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70ED0C401E6111A5006E9FFA /* Build configuration list for PBXNativeTarget "Hackathon2K17Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +547,7 @@
 				70ED0C421E6111A5006E9FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70ED0C431E6111A5006E9FFA /* Build configuration list for PBXNativeTarget "Hackathon2K17UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +556,7 @@
 				70ED0C451E6111A5006E9FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

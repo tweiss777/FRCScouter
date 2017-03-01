@@ -9,7 +9,12 @@
 import UIKit
 
 class OldVC: UIViewController {
-
+    
+    var scoutObject: ScoutingObject?
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,15 +26,35 @@ class OldVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    //IBFunctions go here 
+    @IBAction func LoadForm1(_ sender: UIButton) {
+        //will load up the 0th element of the scouting array
+    
+        }
+    
+    @IBAction func LoadForm2(_ sender: UIButton) {
+        //will load up the 1st element of the scouting array
+        }
+    
+    @IBAction func LoadForm3(_ sender: UIButton) {
+        //will load up the 2nd element of the scouting array
+    
+        }
+    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        let scoutingObject = scoutObject
+        
+        if let DestinationVC: ExportVC = segue.destination as? ExportVC{
+            
+            DestinationVC.scoutingObject = scoutingObject
+            
+            
+        }
     }
-    */
+ 
 
 }

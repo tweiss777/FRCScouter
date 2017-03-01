@@ -9,10 +9,12 @@
 import UIKit
 
 class ExportVC: UIViewController {
-
+    var scoutingObject: ScoutingObject?
+    
+    @IBOutlet weak var summaryFieldView: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        summaryFieldView.text! = scoutingObject!.ExportAll()
         // Do any additional setup after loading the view.
     }
 
